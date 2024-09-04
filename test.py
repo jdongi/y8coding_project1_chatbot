@@ -1,4 +1,6 @@
-weather = input("What's the weather like today? 1 - Sunny, 2 - Rainy, 3 - Windy, 4 - Snowing\n")
+#CLASS 2
+print("What's the weather like today? 1 - Sunny, 2 - Rainy, 3 - Windy, 4 - Stormy")
+weather = input()
 if weather == '1':
     print("It's awfully nice out today! You should go touch some grass!")
 elif weather == '2':
@@ -6,7 +8,7 @@ elif weather == '2':
 elif weather == '3':
     print("Well that's not helpful at all!")
 elif weather == '4':
-    print("Nice!")
+    print("Nice! You won't have to go to school 😎")
 askfood = str(input("Are you eating something right now?\n"))
 if askfood == 'Yes' or askfood == 'yes':
     food = input("Nice! What are you eating?\n")
